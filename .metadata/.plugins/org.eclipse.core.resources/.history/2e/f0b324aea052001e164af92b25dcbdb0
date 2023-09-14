@@ -1,0 +1,5 @@
+package atelie.backend.repository;
+
+public interface ProdutoRepository {
+
+}

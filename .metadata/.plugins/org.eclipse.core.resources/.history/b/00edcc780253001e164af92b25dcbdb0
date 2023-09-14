@@ -1,0 +1,5 @@
+package atelie.backend.controller;
+
+public class ProdutoController {
+
+}
