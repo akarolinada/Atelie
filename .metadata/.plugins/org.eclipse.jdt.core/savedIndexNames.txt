@@ -47,7 +47,6 @@ INDEX VERSION 1.134+C:\Users\aname\OneDrive\Documentos\Atelie-app\.metadata\.plu
 2234161423.index
 3599179119.index
 3652911151.index
-1965174767.index
 1457158868.index
 1857420229.index
 1576019085.index
