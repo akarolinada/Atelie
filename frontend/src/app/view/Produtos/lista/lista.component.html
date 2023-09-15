@@ -1,0 +1,23 @@
+<h2>Lista de Produtos</h2>
+<table class="table tabble-striped">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>Nome</th>
+      <th>Preço</th>
+      <th>Imagem Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let produto of produtos">
+      <td>{{produto.id}}</td>
+      <td>{{produto.prod_nome}}</td>
+      <td>{{produto.prod_valor}}</td>
+      <td>{{produto.prod_img}}</td>
+
+
+    </tr>
+  </tbody>
+</table>
+
+
