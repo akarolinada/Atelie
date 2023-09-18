@@ -8,9 +8,17 @@ import { ListaComponent } from './view/Produtos/lista/lista.component';
 import { VitrineComponent } from './view/Produtos/vitrine/vitrine.component';
 import { HeaderComponent } from './Template/header/header.component';
 import { FooterComponent } from './Template/footer/footer.component';
+import { AddProdutoComponent } from './view/Produtos/add-produto/add-produto.component';
 
 @NgModule({
-  declarations: [AppComponent, ListaComponent, VitrineComponent, HeaderComponent, FooterComponent],
+  declarations: [
+    AppComponent,
+    ListaComponent,
+    VitrineComponent,
+    HeaderComponent,
+    FooterComponent,
+    AddProdutoComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
